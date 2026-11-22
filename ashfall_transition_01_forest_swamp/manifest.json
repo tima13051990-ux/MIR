@@ -1,0 +1,41 @@
+{
+  "project": "Ashfall Camp",
+  "stage": "Transition Tileset / 01 Forest to Swamp",
+  "source_atlas": {
+    "file": "source/source_transition_atlas.png",
+    "size_px": [
+      1536,
+      1024
+    ]
+  },
+  "extracted_reference_assets": [
+    {
+      "file": "reference_crops/01_forest_to_swamp_overview.png",
+      "size_px": [
+        252,
+        214
+      ],
+      "purpose": "Overview panel crop; source alpha retained."
+    },
+    {
+      "file": "reference_crops/01_forest_to_swamp_tile_area_reference.png",
+      "size_px": [
+        252,
+        290
+      ],
+      "purpose": "Reference crop of the first atlas columns below the overview; not verified individual tiles."
+    }
+  ],
+  "production_status": {
+    "32px_tile_slicing": "not certified",
+    "transparent_individual_sprites": "not separated",
+    "seamless_edges": "not tested",
+    "reason": "The generated source atlas has no reliable per-sprite coordinates or confirmed 32x32 cell layout. Cropping it into 32px cells would cut artwork arbitrarily."
+  },
+  "next_required_work": [
+    "Create a dedicated orthographic ground-only sheet for forest-to-swamp transition.",
+    "Define exact 32x32 tile coordinates and edge/corner variants.",
+    "Separate reeds, roots, stones and plants as transparent sprites.",
+    "Run edge-joining tests on neighboring chunks."
+  ]
+}
