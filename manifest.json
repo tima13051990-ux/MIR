@@ -1,0 +1,163 @@
+{
+  "project": "Ashfall Camp / Overworld",
+  "package_version": "1.0",
+  "target_canvas_px": [
+    2048,
+    1408
+  ],
+  "tile_size_px": 32,
+  "grid": [
+    64,
+    44
+  ],
+  "resampling": "nearest-neighbor",
+  "assets": [
+    {
+      "id": "01_forest",
+      "name_ru": "Тёмный хвойный лес",
+      "source_file": "top_down_detailed_pixel_art_fantasy_rpg_terrain_t.png",
+      "source_size_px": [
+        1511,
+        1041
+      ],
+      "output_file": "biomes/01_forest_ground_2048x1408.png",
+      "grid_preview": "previews/01_forest_grid_preview.png",
+      "output_size_px": [
+        2048,
+        1408
+      ],
+      "tile_size_px": 32,
+      "tile_grid": [
+        64,
+        44
+      ],
+      "production_status": "normalized concept plate; not a clean ground-only tile set; seamless tiling not certified"
+    },
+    {
+      "id": "02_snow",
+      "name_ru": "Снежные горы",
+      "source_file": "top_down_overhead_fantasy_pixel_art_style_winter_l.png",
+      "source_size_px": [
+        1511,
+        1041
+      ],
+      "output_file": "biomes/02_snow_ground_2048x1408.png",
+      "grid_preview": "previews/02_snow_grid_preview.png",
+      "output_size_px": [
+        2048,
+        1408
+      ],
+      "tile_size_px": 32,
+      "tile_grid": [
+        64,
+        44
+      ],
+      "production_status": "normalized concept plate; not a clean ground-only tile set; seamless tiling not certified"
+    },
+    {
+      "id": "03_swamp",
+      "name_ru": "Мрачное болото",
+      "source_file": "top_down_detailed_pixel_art_fantasy_swamp_marshla.png",
+      "source_size_px": [
+        1511,
+        1041
+      ],
+      "output_file": "biomes/03_swamp_ground_2048x1408.png",
+      "grid_preview": "previews/03_swamp_grid_preview.png",
+      "output_size_px": [
+        2048,
+        1408
+      ],
+      "tile_size_px": 32,
+      "tile_grid": [
+        64,
+        44
+      ],
+      "production_status": "normalized concept plate; not a clean ground-only tile set; seamless tiling not certified"
+    },
+    {
+      "id": "04_volcanic",
+      "name_ru": "Вулканические пустоши",
+      "source_file": "wide_isometric_pixel_art_style_fantasy_volcanic_w.png",
+      "source_size_px": [
+        1511,
+        1041
+      ],
+      "output_file": "biomes/04_volcanic_ground_2048x1408.png",
+      "grid_preview": "previews/04_volcanic_grid_preview.png",
+      "output_size_px": [
+        2048,
+        1408
+      ],
+      "tile_size_px": 32,
+      "tile_grid": [
+        64,
+        44
+      ],
+      "production_status": "normalized concept plate; not a clean ground-only tile set; seamless tiling not certified"
+    },
+    {
+      "id": "05_lake_river",
+      "name_ru": "Озеро и речные берега",
+      "source_file": "a_detailed_top_down_pixel_art_fantasy_landscape_te.png",
+      "source_size_px": [
+        1511,
+        1041
+      ],
+      "output_file": "biomes/05_lake_river_ground_2048x1408.png",
+      "grid_preview": "previews/05_lake_river_grid_preview.png",
+      "output_size_px": [
+        2048,
+        1408
+      ],
+      "tile_size_px": 32,
+      "tile_grid": [
+        64,
+        44
+      ],
+      "production_status": "normalized concept plate; not a clean ground-only tile set; seamless tiling not certified"
+    },
+    {
+      "id": "06_mountains",
+      "name_ru": "Каменистые горы",
+      "source_file": "a_detailed_isometric_top_down_fantasy_landscape_ti.png",
+      "source_size_px": [
+        1511,
+        1041
+      ],
+      "output_file": "biomes/06_mountains_ground_2048x1408.png",
+      "grid_preview": "previews/06_mountains_grid_preview.png",
+      "output_size_px": [
+        2048,
+        1408
+      ],
+      "tile_size_px": 32,
+      "tile_grid": [
+        64,
+        44
+      ],
+      "production_status": "normalized concept plate; not a clean ground-only tile set; seamless tiling not certified"
+    },
+    {
+      "id": "07_grassland",
+      "name_ru": "Травяные равнины",
+      "source_file": "a_detailed_high_resolution_isometric_top_down_fan.png",
+      "source_size_px": [
+        1510,
+        1042
+      ],
+      "output_file": "biomes/07_grassland_ground_2048x1408.png",
+      "grid_preview": "previews/07_grassland_grid_preview.png",
+      "output_size_px": [
+        2048,
+        1408
+      ],
+      "tile_size_px": 32,
+      "tile_grid": [
+        64,
+        44
+      ],
+      "production_status": "normalized concept plate; not a clean ground-only tile set; seamless tiling not certified"
+    }
+  ]
+}
